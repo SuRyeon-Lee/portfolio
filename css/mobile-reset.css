@@ -1,0 +1,183 @@
+/* mobile-reset */
+@charset "UTF-8";
+
+*{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        li{list-style-type: none;}
+        body{width: 100%; height: 100vh;
+        background-image: url('../img/full-wrap-bg.jpg');
+        background-size: cover;font-family: 'Noto Sans KR', sans-serif;color: #555555;}
+        .clearfix::before, .clearfix::after{display:block;content:"";clear: both;}
+
+                /* shadow */
+.shadow1{
+    border-radius: 50px;
+    background: #f7f8f9;
+    box-shadow:  10px 10px 10px  rgba(57, 63, 73, 0.16), 
+    -2px -2px 10px rgba(255, 255, 255, 0.4), inset 2px 2px 5px rgba(255, 255, 255, 1); 
+    position: relative;
+}
+.shadow2{
+
+        border-radius: 50px;
+        background: linear-gradient(145deg, #efeff0, #ffffff);
+        box-shadow:  5px 5px 10px #d2d3d4, 
+        -2px -2px 10px #ffffff;
+}
+
+
+/* 동그라미 애니메이션 */
+.circle1{
+    width: 10px;
+    height: 10px;
+    background-color: #6eccc0;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes circle1{
+    from{width: 5px; height: 5px;}
+    to{width: 20px; height: 20px;background-color: #97f3e7;}
+}
+
+
+/* 레이아웃 */
+
+    /* full */
+    #full-wrap{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 95%;
+    position: relative;
+    }
+
+
+    /* header */
+    #header{
+    width: 95%; 
+    height: 65px;
+    position: fixed;
+    z-index: 9999;
+    background: #f1f1f1;
+        box-shadow: 
+        10px 10px 10px  rgba(57, 63, 73, 0.16), 
+        -2px -2px 10px rgba(255, 255, 255, 0.4), inset 2px 2px 5px rgba(255, 255, 255, 1);
+        border-radius: 50px;  
+    }
+    #header >a {
+    color:#555555;
+    }
+
+    /* header logo */
+    #header >a > #logo{
+        font-family: 'Questrial', sans-serif;
+        position: absolute;
+        left: 50px;
+        top: 12px;
+        font-weight: bolder;
+        font-size: 20px;
+        }
+        #header >a > #logo > span{
+        font-family: 'Questrial', sans-serif;
+        font-weight: normal;
+        font-size: 20px;
+        color: #6eccc0;
+
+        }
+
+
+/* gnb */
+        #gnb{
+        /* border: 2px solid blue; */
+        position: absolute;
+        top: 70px;
+        width: 100%;
+         background: #6eccc0;
+        box-shadow: 
+        10px 10px 10px  rgba(57, 63, 73, 0.16), 
+        -2px -2px 10px rgba(255, 255, 255, 0.4), inset 2px 2px 5px rgba(255, 255, 255, 0.3);
+        border-radius: 50px;  
+        /* display: none; */
+
+        }
+        #gnb a{
+        /* margin-left: 20px; */
+        color:white;
+        font-family: 'Questrial', sans-serif;
+        line-height: 40px;
+        box-sizing: border-box;
+        font-size: 14px;
+        
+        }
+
+        #gnb >.depth1{
+            width: 25%;
+            /* /* width: 90%; */
+            height: 40px; */
+           font-size: 16px;
+           border-radius: 30px;
+           box-sizing: border-box;
+           text-align: center;
+           display: inline-block;
+           float: left;
+           
+           }
+   
+           #header> label{
+            position: absolute;
+            right: 25px;
+            top: 22px;
+            background: none;
+            border: none;
+
+          }
+          
+          label i.fa-bars {
+            color: #6eccc0;
+            font-size: 22px;
+          }
+          
+          /* hover */
+        #gnb > .depth1:hover{
+            background: #6eccc0;
+            box-shadow:  
+            inset -2px 2px 4px rgba(92, 92, 92,0.5); 
+        }
+
+        /* css toggle */
+        #btn_toggle:active #gnb{
+            display: block;
+        }
+
+        #gnb, #toggle{
+            display: none;
+        }
+        #toggle:checked + ul{display:block;}
+
+        /* contents */
+        #body-wrap{
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        overflow-x: hidden;
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-left: 13px;
+        padding-right: 13px;
+        box-sizing: border-box;}
+
+        /* 공통 타이틀 */
+        #body-wrap > .title{
+        top: 20px; */
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Questrial', sans-serif;
+        padding: 5px;
+        }
+
+            

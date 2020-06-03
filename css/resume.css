@@ -1,0 +1,227 @@
+/* pc */
+
+
+@import './reset.css';
+
+
+
+
+
+#body-wrap > #photo{
+    /* border: 2px solid red; */
+    position: relative;
+    float: left;
+    width:100%;
+    /* height: 200px; */
+    padding-top: 80px;
+    /* margin-bottom: 40px; */
+    display: inline-block;
+}
+#body-wrap > #photo>#back-circle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    
+    /* left: 200px; */
+}
+#body-wrap > #photo >img{
+    position: absolute;
+    width: 200px;
+    z-index: 999;
+    top: 100px;
+    left: -37px;
+    opacity: 0.85;
+}
+
+
+/* 왼쪽 텍스트 */
+
+#body-wrap >.highlight{
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    float: left;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    min-width:250px;
+    line-height: 40px;
+    /* border: 2px solid green; */
+    margin-bottom: 100px;
+}
+#body-wrap >.highlight >#hello{
+
+    font-size: 60px;
+    font-weight: bolder;
+}
+#body-wrap .highlight > #name {
+    color: #6eccc0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* 스킬 */
+#skills{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    height: 320px;
+}
+#skills{
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+#skills > li >span {
+    text-align: center;
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#html {
+    margin-left: -5px;
+}
+
+/* 자격증 */
+
+#certi{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    height: 320px;
+}
+#certi{
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+#certi > li >span {
+    text-align: center;
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/* 학력 */
+
+#edu{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 37px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    height: 320px;
+}
+#edu{
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
+    font-size: 12px;
+}
+#edu>.date{
+    font-size: 14px;
+}
+#edu > li >span {
+    text-align: center;
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* 커리어 */
+
+#career{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    height: 320px;
+}
+#career{
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+#career > li >span {
+    text-align: center;
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* 취미 */
+
+#hobby{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    height: 320px;
+}
+#hobby{
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+#hobby> li >span {
+    text-align: center;
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+#hobby> li>.fas{
+    font-size: 16px;
+    color: #6eccc0;
+}
+
+
+
+
+/* TEXT */
+#intro{
+    /* display: block; */
+}
+.text >p{margin-bottom: 50px;line-height: 30px;}
+.text> h1{
+    display: inline-block;
+    min-width: 400px;
+    margin-bottom: 20px;
+}
+

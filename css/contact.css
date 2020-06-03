@@ -1,0 +1,220 @@
+/* pc */
+
+@import './reset.css';
+
+
+#contact-t{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+#body-wrap > #photo{
+    /* border: 2px solid red; */
+    position: relative;
+    float: left;
+    width:100%;
+    /* height: 200px; */
+    padding-top: 80px;
+    /* margin-bottom: 40px; */
+    display: inline-block;
+}
+#body-wrap > #photo>#back-circle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    
+    /* left: 200px; */
+}
+#body-wrap > #photo >img{
+    position: absolute;
+    width: 180px;
+    z-index: 999;
+    top: 100px;
+    opacity: 0.85;
+}
+
+
+/* 왼쪽 텍스트 */
+
+#body-wrap >.highlight{
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    float: left;
+    padding-left: 250px;
+    padding-top: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    min-width:250px;
+    line-height: 40px;
+    /* border: 2px solid green; */
+    margin-bottom: 100px;
+}
+#body-wrap >.highlight >#hello{
+
+    font-size: 60px;
+    font-weight: bolder;
+}
+#body-wrap .highlight > #name {
+    color: #6eccc0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+/* 블로그 */
+
+#blog{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    text-align: center;
+    height: 271px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    /* position: relative; */
+}
+
+#blog> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+#blog> li{
+    display: inline;
+}
+#blog-name{
+    margin-right: 10px;
+}
+#blog > li >a{
+    position: relative; 
+    margin-top: 20px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid green; */
+    text-align: center;
+    color: #555555;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 150px;
+
+    border-radius: 50%;
+    background: #f7f8f9;
+    box-shadow:  10px 10px 10px  rgba(57, 63, 73, 0.16), 
+    -2px -2px 10px rgba(255, 255, 255, 0.4), inset 2px 2px 5px rgba(255, 255, 255, 1); 
+    /* position: relative; */
+}
+
+#blog > li >a:hover{
+    background: #f1f1f1;
+    box-shadow:  
+    /* -2px -2px 10px rgba(255, 255, 255, 0.4),  */
+    inset 5px 5px 10px rgb(92, 92, 92); 
+}
+
+
+/* 전화번호 */
+#tel{
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    text-align: center;
+    height: 271px;
+    font-family: 'Questrial', sans-serif;
+}
+#tel-num{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#tel> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* 카카오톡*/
+#kakao{
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    text-align: center;
+    height: 271px;
+    font-family: 'Questrial', sans-serif;
+}
+#kakao-id{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#kakao> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* 카카오톡*/
+#mail{
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    text-align: center;
+    height: 271px;
+    font-family: 'Questrial', sans-serif;
+}
+#mail-add{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#mail> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+/* TEXT */
+#intro{
+    /* display: block; */
+}
+.text >p{margin-bottom: 50px;line-height: 30px;}
+.text> h1{
+    display: inline-block;
+    min-width: 400px;
+    margin-bottom: 20px;
+}
+

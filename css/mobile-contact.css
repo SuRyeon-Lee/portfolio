@@ -1,0 +1,204 @@
+/* pc */
+
+@import './mobile-reset.css';
+
+
+
+
+#body-wrap > #photo{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+    left: 22%;
+}
+#body-wrap > #photo>#back-circle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+#body-wrap > #photo >img{
+    position: absolute;
+    width: 190px;
+    z-index: 999;
+    top: 62px;
+    left: 0px;
+    opacity: 0.85;
+}
+/* 왼쪽 텍스트 */
+
+#body-wrap >.highlight{
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 22%;
+    width: 250px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+#body-wrap >.highlight >#hello{
+
+    font-size: 60px;
+    font-weight: bolder;
+}
+#body-wrap .highlight > #name {
+    color: #6eccc0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#contact-t{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+
+
+/* 블로그 */
+
+#blog{
+    display:block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-right: 25px; */
+    text-align: center;
+    /* height: 271px; */
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+    font-size: 14px;
+    /* position: relative; */
+}
+
+#blog> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+#blog> li{
+    display: inline;
+}
+#blog-name{
+    margin-right: 10px;
+}
+#blog > li >a{
+    position: relative; 
+    margin-top: 20px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid green; */
+    text-align: center;
+    color: #555555;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 150px;
+
+    border-radius: 50%;
+    background: #f7f8f9;
+    box-shadow:  10px 10px 10px  rgba(57, 63, 73, 0.16), 
+    -2px -2px 10px rgba(255, 255, 255, 0.4), inset 2px 2px 5px rgba(255, 255, 255, 1); 
+    /* position: relative; */
+}
+
+#blog > li >a:hover{
+    background: #f1f1f1;
+    box-shadow:  
+    /* -2px -2px 10px rgba(255, 255, 255, 0.4),  */
+    inset 5px 5px 10px rgb(92, 92, 92); 
+}
+
+
+/* 전화번호 */
+#tel{
+    display: block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+}
+#tel-num{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#tel> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* 카카오톡*/
+#kakao{
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+}
+#kakao-id{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#kakao> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* 카카오톡*/
+#mail{
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+}
+#mail-add{
+    font-size: 20px;
+    font-weight: 500;
+}
+#mail> li >span {
+    color: #6eccc0;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+/* TEXT */
+#intro{
+    /* display: block; */
+}
+.text >p{margin-bottom: 50px;line-height: 30px;}
+.text> h1{
+    display: inline-block;
+    min-width: 400px;
+    margin-bottom: 20px;
+}
+

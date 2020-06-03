@@ -1,0 +1,86 @@
+/* pc */
+
+
+@import './reset.css';
+
+
+#works {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 100px;
+    /* border: 1px solid red; */
+  }
+  #works > nav {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 80px;
+  }
+  #works > nav > a { 
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 12px;
+    color: #555555;
+    margin-left: 10px; margin-right: 10px;
+    text-transform: uppercase; 
+    font-weight: bold;
+  }
+
+
+  #works > nav > a:hover{
+    background: #f1f1f1;
+    box-shadow:  
+    inset 2px 2px 5px rgba(92, 92, 92,0.7); 
+  }
+  
+  #work_list_all {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #work_list_all li {
+    position: relative;
+    width: 320px; height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  #work_list_all  li  a{
+      position: relative;
+      display: block;
+      /* border: 1px solid red; */
+      /* 작품 이미지 클리핑(확대시 영역 가림) */
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      border-radius: 20%;
+      box-shadow:  2px 2px 10px #d2d3d4, 
+      -2px -2px 10px #ffffff;
+  }
+  #work_list_all li img { width: 100%;
+      }
+  /*동적 구성이기 때문에 이렇게 하지 않음 
+    #work_list_all li:nth-child(3n){
+    margin-right: 0;
+  } */
+  /* hover 박스 */
+  #work_list_all  li  a .info{
+    position: absolute;
+    width: 100%; height: 100%;
+    left: 0; top: 0;
+    background: #97f3e7;
+    display: none;
+    opacity: 0.9;
+    color: #555555;
+    text-align: center;
+    padding-top: 110px;
+    font-size: 18px;
+  }
+  #work_list_all  li:hover .info { display: block;}
+  
+  /* 모션 확대 효과 */
+  #work_list_all  li img { transition: 0.5s;}
+  #work_list_all  li:hover img {
+    transform: scale(1.2);
+  }
